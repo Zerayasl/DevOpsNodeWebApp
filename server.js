@@ -9,7 +9,8 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello FS2026 DevOps Course!');
+  // angepasst von zerayasl
+  res.send('Hello FS2026 DevOps Course! - Dockerized version');
 });
 
 app.listen(PORT, HOST);
