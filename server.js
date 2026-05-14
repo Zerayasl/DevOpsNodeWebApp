@@ -11,7 +11,7 @@ const app = express();
 app.get('/', (req, res) => {
   // angepasst von zerayasl
   res.send('Hello FS2026 DevOps Course! - AZURE TEST with Docker BS and GH Action BS');
-});
+}); 
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
